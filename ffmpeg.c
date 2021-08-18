@@ -174,7 +174,7 @@ static void free_input_threads(void);
  */
 
 
-//BY Krishna for Timestamping////////!
+//Timestamping/
 int64_t get_microseconds() {
 
     static int64_t prev = 0;
@@ -1401,7 +1401,7 @@ static void do_video_out(OutputFile *of,
             }
 
             frame_size = pkt.size;
-	    av_log(NULL, AV_LOG_INFO, "\n [PKT SIZE: %d ] [TIME(mili-second): %ld ]\n",pkt.size, get_microseconds()/1000);//FOr Size information (Krishna) !
+	    av_log(NULL, AV_LOG_INFO, "\n [PKT SIZE: %d ] [TIME(mili-second): %ld ]\n",pkt.size, get_microseconds()/1000);//For Size information
 
             output_packet(of, &pkt, ost, 0);
 
