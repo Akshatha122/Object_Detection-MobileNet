@@ -11,3 +11,6 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 ## OpenCV
 
 OpenCV is a powerful open-source computer vision library that provides a wide range of functions for image and video processing, including object detection. OpenCV provides a simple and easy-to-use interface to load pre-trained deep learning models, preprocess images, perform inference, and visualize the results.
+
+
+<img src="https://github.com/Akshatha122/Object_Detection-MobileNet/blob/master/Object_detection_output/Car_detection_image.jpg" width="250"/>
